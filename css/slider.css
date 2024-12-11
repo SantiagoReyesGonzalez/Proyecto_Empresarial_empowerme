@@ -335,5 +335,6 @@
 
     .carousel .list .item .topic{
         line-height: 1em;
+        font-size: 25px;
     }
 }

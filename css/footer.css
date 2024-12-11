@@ -1,6 +1,6 @@
 .footer{
     text-transform: capitalize;
-    background-color: #111214;
+    background-color: var(--black-color);
     padding: 80px 0;
 }
 

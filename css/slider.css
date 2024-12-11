@@ -331,4 +331,9 @@
     .header{
         z-index: 150;
     }
+
+
+    .carousel .list .item .topic{
+        line-height: 1em;
+    }
 }

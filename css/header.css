@@ -303,7 +303,7 @@
     /* Show dropdown menu */
     .dropdown__item:hover .dropdown__menu {
       opacity: 1;
-      top: 5.5rem;
+      top: 3.5rem;
       pointer-events: initial;
       transition: top .3s;
     }

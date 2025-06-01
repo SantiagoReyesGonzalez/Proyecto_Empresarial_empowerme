@@ -3,16 +3,8 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows:  1fr ;
-    gap: 10px;
 
-    margin: 40px auto;
     padding: 30px;
-
-
-    min-height: 70vh;
-    min-width: 80vw;
-
-
 
 
     grid-template-areas:  
@@ -56,4 +48,39 @@
   height: 100%;
   object-fit: cover;      /* recorta y centra la imagen */
   display: block;
+}
+
+@media (min-width:768px){
+
+    .container-levensmark{
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:  
+            "img text"
+    }
+
+    .container-levensmark-text{
+        grid-area: text;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container-levensmark-text h2{
+        font-size: 2.4rem;
+    }
+
+    .container-levensmark-text p{
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width: 1650px)
+{
+    .container-levensmark{
+        max-width: 1650px;
+        margin: 0 auto;
+    }
 }

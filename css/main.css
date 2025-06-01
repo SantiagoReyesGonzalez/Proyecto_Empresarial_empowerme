@@ -73,6 +73,13 @@
     }
 
     .container-levensmark-text p{
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width:1024px){
+    .container-levensmark-text p{
         font-size: 1.4rem;
     }
 }

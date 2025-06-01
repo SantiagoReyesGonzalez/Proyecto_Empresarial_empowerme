@@ -1,8 +1,8 @@
 .container-levensmark{
   
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr ;
+    grid-template-rows:  1fr ;
     gap: 10px;
 
     margin: 40px auto;
@@ -13,27 +13,47 @@
     min-width: 80vw;
 
 
-    background-image: url("../assets/images/Elements/whatIsLevensmark.webp");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+
 
     grid-template-areas:  
-    ". titulo"
-    ". parrafo" ;
+    "titulo"
+    "parrafo" 
+    "img";
 }
 
 .container-levensmark h2{
     grid-area: titulo;
     font-size: 1.8rem;
     text-align: center;
-    padding-top: 80px;
+    margin-bottom: 20px;
     text-shadow: 6px 6px 3px rgb(0 0 0 / 70%);
 
 }
 
 .container-levensmark p{
     grid-area: parrafo;
-    text-shadow: 4px 4px 3px rgb(0 0 0);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.700);
     font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.container-levensmark p span{
+    color: #f1683a;
+    font-weight: bold;
+}
+
+.container-levensmark .img{
+    grid-area: img;
+    width: 100%;            /* o una medida fija como 300px */
+    aspect-ratio: 1 / 1;    /* mantiene proporción cuadrada */
+    overflow: hidden;
+    border-radius: 10px;    /* opcional, para bordes redondeados */
+}
+
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* recorta y centra la imagen */
+  display: block;
 }

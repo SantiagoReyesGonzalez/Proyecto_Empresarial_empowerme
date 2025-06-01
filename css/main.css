@@ -25,7 +25,7 @@
 
 .container-levensmark h2{
     grid-area: titulo;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
     padding-top: 80px;
     text-shadow: 6px 6px 3px rgb(0 0 0 / 70%);
@@ -35,5 +35,5 @@
 .container-levensmark p{
     grid-area: parrafo;
     text-shadow: 4px 4px 3px rgb(0 0 0);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }

@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/levensmark.css">
+    <link rel="stylesheet" href="css/ourTeam.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--=============== https://remixicon.com/ ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== Linking SwiperJS CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -20,7 +23,7 @@
         <nav class="nav container">
         <div class="nav__data">
             <a href="#" class="nav__logo">
-            <i class="ri-fire-fill"></i> Company
+            <i class="ri-fire-fill"></i>Levensmark
             </a>
             
             <div class="nav__toggle" id="nav-toggle">
@@ -256,12 +259,61 @@
         </div>
     </section>
 
-    
 
+    <!--=============== OUR TEAM ===============-->
+    
+    <section class="our-team">
+        <div class="container-our-team swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="assets/team/David.jpg" alt="User image" class="user-image">
+                        <h2 class="user-name">David Ramirez</h2>
+                        <p class="user-profession">Co-Founder</p>
+                        <button class="ver-mas">Ver más</button>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/team/Maria.jpg" alt="User image" class="user-image">
+                        <h2 class="user-name">Maria Velandia</h2>
+                        <p class="user-profession">Co-Founder</p>
+                        <button class="ver-mas">Ver más</button>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/team/David.jpg" alt="User image" class="user-image">
+                        <h2 class="user-name">David Ramirez</h2>
+                        <p class="user-profession">Co-Founder</p>
+                        <button class="ver-mas">Ver más</button>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/team/Maria.jpg" alt="User image" class="user-image">
+                        <h2 class="user-name">Maria Velandia</h2>
+                        <p class="user-profession">Co-Founder</p>
+                        <button class="ver-mas">Ver más</button>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/team/David.jpg" alt="User image" class="user-image">
+                        <h2 class="user-name">David Ramirez</h2>
+                        <p class="user-profession">Co-Founder</p>
+                        <button class="ver-mas">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="js/slider.js"></script>
     <script src="js/header.js"></script>
+    <!-- Libnking SwiperJs script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 <footer class="footer">
         <div class="container">

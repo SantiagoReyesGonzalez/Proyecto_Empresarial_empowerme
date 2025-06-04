@@ -13,14 +13,7 @@
     "img";
 }
 
-.container-levensmark h2{
-    grid-area: titulo;
-    font-size: 1.8rem;
-    text-align: center;
-    margin-bottom: 20px;
-    text-shadow: 6px 6px 3px rgb(0 0 0 / 70%);
 
-}
 
 .container-levensmark p{
     grid-area: parrafo;

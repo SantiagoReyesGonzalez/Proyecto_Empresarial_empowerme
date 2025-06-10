@@ -121,5 +121,9 @@
     .our-team{
         min-width: 100vw;
         background-size: cover;
+
+          /* Difuminado solo en el top (30px) */
+        -webkit-mask-image: linear-gradient(to bottom, transparent 0px, black 30px);
+        mask-image: linear-gradient(to bottom, transparent 0px, black 80px);
     }
 }

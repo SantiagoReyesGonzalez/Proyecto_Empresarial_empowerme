@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url(../assets/bg/pluma2.png) #030728 no-repeat center;   
+    background: url(../assets/bg/our_team.png) #030728 no-repeat center;   
     background-color: #000;
+
 
 }
 
@@ -85,7 +86,24 @@
 }
 
 .container-our-team .titulo-2{
+    margin-top: 60px;
     margin-bottom: 60px;
+
+    background: linear-gradient(314deg, #be1e1e, #f5c542);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-our-team .equipo-desc {
+  max-width: 600px;
+  padding: 0 30px;
+  margin: 0 auto 4rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+  
 }
 
 @media (max-width: 768px) {
@@ -95,5 +113,13 @@
 
     .slider-wrapper .swiper-slide-button{
         display: none;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .our-team{
+        min-width: 100vw;
+        background-size: cover;
     }
 }

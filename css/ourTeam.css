@@ -86,12 +86,8 @@
 }
 
 .container-our-team .titulo-2{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    color: #f58f2f;
 
-    background: linear-gradient(314deg, #be1e1e, #f5c542);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .container-our-team .equipo-desc {

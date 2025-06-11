@@ -87,7 +87,6 @@
 
 .container-our-team .titulo-2{
     color: #f58f2f;
-
 }
 
 .container-our-team .equipo-desc {
@@ -121,5 +120,9 @@
           /* Difuminado solo en el top (30px) */
         -webkit-mask-image: linear-gradient(to bottom, transparent 0px, black 30px);
         mask-image: linear-gradient(to bottom, transparent 0px, black 80px);
+    }
+
+    .container-our-team .titulo-2{
+        margin-top: 60px;
     }
 }

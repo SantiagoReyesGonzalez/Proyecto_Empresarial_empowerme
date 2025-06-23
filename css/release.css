@@ -37,3 +37,113 @@ box-shadow:  -8px 8px 16px #000000,
     text-align: center;
     color: #dea959;
 }
+
+.release-card .release-slogan{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 4px;
+}
+
+.release-card .release-slogan-second{
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-bottom: 12px;
+}
+
+.release-card .release-icon{
+    color: #debb59;
+    margin-right: 6px;
+}
+
+.release-hour, .release-date, .release-place{
+    font-weight: 400;
+    line-height: 2;
+}
+
+.release-card .release-button{
+    font-size: 1rem;
+    padding: 10px 35px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #debb59;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    margin-bottom: 20px ;
+}
+
+.release-card .release-button:hover{
+    background: rgba(202, 202, 202, 0.295);
+    border: 1px solid #dea959;
+}
+
+.release-card .release-button:hover a{
+    color: #dea959;
+}
+.release-card .release-button a{
+    text-decoration: none;
+    color: #030728;
+}
+
+.release-card .release-call-action{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    row-gap: 20px;
+}
+
+.release-card .release-call-action p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+
+    .release-card {
+        display: grid;
+        justify-content: center;
+        /* Centra horizontalmente el grid */
+        align-items: center;
+        /* Centra verticalmente el contenido */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "logo title"
+            "logo invitation"
+            "logo info"
+            "logo call-action";
+        gap: 1rem;
+        max-width: 60vw;
+        /* opcional, para dar separación entre elementos */
+        text-align: center;
+        /* centra el texto dentro de cada área */
+    }
+
+    .release-card .gold-text {
+        grid-area: title;
+        font-size: 2rem;
+    }
+
+    .release-card .release-img {
+        grid-area: logo;
+        margin: 0 auto;
+    }
+
+    .release-card .release-title {
+        grid-area: invitation;
+    }
+
+    .release-card .release-information {
+        grid-area: info;
+    }
+
+    .release-card .release-call-action {
+        grid-area: call-action;
+        align-items: center;
+    }
+
+    .release-card .release-call-action p{
+        font-size: 1.2rem;
+    }
+}

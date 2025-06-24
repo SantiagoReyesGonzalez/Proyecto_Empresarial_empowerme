@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container-privacy-policy {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #121212; /* fondo oscuro */
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #e0e0e0; /* texto principal claro */
+}
+
+.container-privacy-policy h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.container-privacy-policy h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    color: #f1f1f1;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+}
+
+.container-privacy-policy h3 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    color: #dddddd;
+}
+
+.container-privacy-policy h4 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+.container-privacy-policy p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+.container-privacy-policy ul {
+    margin-left: 25px;
+    padding-left: 15px;
+    list-style: disc;
+    color: #d3d3d3;
+}
+
+.container-privacy-policy li {
+    margin-bottom: 10px;
+}
+
+.container-privacy-policy a {
+    color: #4db8ff; /* azul claro */
+    text-decoration: none;
+}
+
+.container-privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo adicional para resaltar términos importantes */
+.container-privacy-policy strong {
+    color: #ffffff;
+    font-weight: 600;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --primary-color: #d4af37;
+    /* dorado */
+    --text-color: #f0f0f0;
+    --input-bg: #2a2a2a;
+    --input-border: #444;
+    --hover-color: #ffd700;
+}
+
+
+.container-register-release {
+    margin: 0;
+    font-family: Poppins;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 40px 18px;
+}
+
+.container-register-release .form-small{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.container-register-release form {
+    background-color: var(--card-bg);
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+    max-width: 100%;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.container-register-release h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.container-register-release label {
+    display: block;
+    margin-top: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.container-register-release input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.3rem;
+    border-radius: 6px;
+    border: 1px solid var(--input-border);
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.container-register-release textarea {
+    width: 100%;
+  resize: none;
+
+}
+
+.container-register-release input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+
+.container-register-release .checkbox-item input:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+}
+.container-register-release select option {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+
+.container-register-release .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
+.container-register-release .checkbox-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.8rem;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.container-register-release .checkbox-item:hover {
+  border-color: var(--primary-color);
+  background-color: #333;
+}
+
+.container-register-release .checkbox-item input[type="checkbox"] {
+  accent-color: var(--primary-color);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.container-register-release .checkbox-item label {
+  color: var(--text-color);
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+
+.container-register-release button {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.9rem;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container-register-release button:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    transform: scale(1.03);
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+/* Pantallas más grandes */
+@media (min-width: 768px) {
+
+
+    .container-register-release form {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-register-release form {
+        padding: 3rem;
+    }
+}

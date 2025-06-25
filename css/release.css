@@ -60,7 +60,7 @@ box-shadow:  -8px 8px 16px #000000,
     line-height: 2;
 }
 
-.release-card .release-button{
+.release-card .release-call-action .release-button{
     font-size: 1rem;
     padding: 10px 35px;
     border-radius: 6px;
@@ -70,6 +70,9 @@ box-shadow:  -8px 8px 16px #000000,
     border: 1px solid transparent;
     transition: 0.2s ease;
     margin-bottom: 20px ;
+    text-decoration: none;
+    color: #030728;
+    text-align: center;
 }
 
 .release-card .release-button:hover{
@@ -77,13 +80,7 @@ box-shadow:  -8px 8px 16px #000000,
     border: 1px solid #dea959;
 }
 
-.release-card .release-button:hover a{
-    color: #dea959;
-}
-.release-card .release-button a{
-    text-decoration: none;
-    color: #030728;
-}
+
 
 .release-card .release-call-action{
     display: flex;

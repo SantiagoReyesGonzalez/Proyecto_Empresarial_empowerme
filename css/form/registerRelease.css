@@ -143,6 +143,8 @@ textarea:focus {
     transition: all 0.3s ease;
 }
 
+
+
 .container-register-release button:hover {
     background-color: var(--primary-color);
     color: var(--bg-color);

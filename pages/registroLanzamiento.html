@@ -252,7 +252,10 @@
             <label for="nombre">Nombre completo *</label>
             <input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+" title="Solo se permiten letras y espacios" required>
 
-            <label for="correo">Correo electrónico *</label>
+            <label for="ciudad">Correo electrónico *</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="correo">Ciudad de residencia  *</label>
             <input type="email" id="correo" name="correo" required>
 
             <div class="form-small">
@@ -285,8 +288,16 @@
             <label for="interes">¿Por qué estás interesado/a en el evento?</label>
             <textarea id="interes" name="interes" rows="3" maxlength="500"></textarea>
     
-            <label for="previo">¿Has asistido a eventos anteriores?</label>
+            <label for="previo">¿Es esta tu primera vez conociendo Levensmark?</label>
             <select id="previo" name="previo" required>
+                <option value="">Selecciona</option>
+                <option value="si">Sí, es la primera vez</option>
+                <option value="conocia">Ya había escuchado o visto algo</option>
+                <option value="no">Me lo recomendaron y quiero saber más</option>
+            </select>
+
+            <label for="libro">¿Te interesa recibir contenido exclusivo del libro antes del lanzamiento?</label>
+            <select id="libro" name="libro" required>
                 <option value="">Selecciona</option>
                 <option value="si">Sí</option>
                 <option value="no">No</option>

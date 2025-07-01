@@ -245,17 +245,17 @@
     </div>
 
     <section class="container-register-release">
-        <form action="#" method="POST">
+        <form method="dialog">
             <h2>Formulario de Inscripción al Evento</h2>
     
             <!-- Datos personales -->
             <label for="nombre">Nombre completo *</label>
             <input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+" title="Solo se permiten letras y espacios" required>
 
-            <label for="ciudad">Correo electrónico *</label>
+            <label for="ciudad">Ciudad de residencia *</label>
             <input type="text" id="ciudad" name="ciudad" required>
 
-            <label for="correo">Ciudad de residencia  *</label>
+            <label for="correo">Correo electrónico *</label>
             <input type="email" id="correo" name="correo" required>
 
             <div class="form-small">
@@ -330,7 +330,8 @@
     <script src="../js/header.js"></script>
     <!-- Libnking SwiperJs script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="../js/formReleaseLevensmark.js"></script>
 </body>
 <footer class="footer">
         <div class="container">
